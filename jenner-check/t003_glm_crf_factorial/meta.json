@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_glm_crf_factorial",
+  "source_file": "Experimental Design Analysis.sas",
+  "source_blob_sha": "a1d28c010171f4eaf25aa13b9d8a2ed5fbbc2e8e",
+  "source_commit": "27d0a1a5d9886cc26fabe3a220c1bf21dd7a4c6f",
+  "notes": "CRF factorial GLM slice (Class City Style; Model EBITDA=City Style City*Style; Means .../Regwq Tukey Bon; Lsmeans .../pdiff adjust=tukey) from the BIA 654 project. External PROC IMPORT replaced with a balanced inline DATA Prop sample; GLM/LSMEANS statements verbatim."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_glm_ancova",
+  "source_file": "Experimental Design Analysis.sas",
+  "source_blob_sha": "a1d28c010171f4eaf25aa13b9d8a2ed5fbbc2e8e",
+  "source_commit": "27d0a1a5d9886cc26fabe3a220c1bf21dd7a4c6f",
+  "notes": "CRAC / ANCOVA slice (Data Prop; A=City Y=EBITDA X=ResaleValue; sequence of Proc GLM for ANOVA, simple regression, homogeneity of slopes, and ANCOVA with LSMeans/StdErr/PDiff Tukey) from the BIA 654 project. External PROC IMPORT replaced with a balanced inline DATA Prop sample; GLM statements verbatim."
+}

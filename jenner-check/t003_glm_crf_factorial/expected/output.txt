@@ -1,0 +1,430 @@
+             COMPLETELY RANDOMIZED FACTORIAL DESIGN (CRF) ANALYSIS             1
+
+                          The GLM Procedure                          
+                     Dependent Variable: ebitda                      
+
+Source            DF  Sum of Squares  Mean Square   F Value    Pr > F
+----------  --------  --------------  -----------  --------  --------
+City               5      2330.54000    466.10800     12.02    <.0001
+Style              3       583.59688    194.53229      5.02    0.0033
+City:Style        15       191.39167     12.75944      0.33    0.9904
+Error             72      2792.87000     38.78986                    
+
+Root MSE           6.22815    R-Square            0.8167
+Adj R-Sq            0.7582
+
+          Means for Effect: City          
+
+Level             Mean   Std Dev         N
+-----------  ---------  --------  --------
+Burlington    96.20625   8.21417        16
+Eden         110.46875   8.25661        16
+Gibsonville  116.88750   9.72666        16
+Graham       113.53750  10.21077        16
+Mebane        99.35000   8.34913        16
+Reidsville    93.21250   9.30533        16
+
+        Means for Effect: Style        
+
+Level          Mean   Std Dev         N
+--------  ---------  --------  --------
+Boarding  108.60000  11.80597        24
+Duplex    102.07500  11.06920        24
+Quad      113.50833  10.48493        24
+Single     95.59167  10.01846        24
+
+           Means for Effect: City*Style            
+
+Level                      Mean   Std Dev         N
+--------------------  ---------  --------  --------
+Burlington*Boarding    99.25000   7.40473         4
+Eden*Boarding         113.27500   5.70051         4
+Gibsonville*Boarding  121.72500   6.26917         4
+Graham*Boarding       118.90000   8.09074         4
+Mebane*Boarding       102.32500   5.56499         4
+Reidsville*Boarding    96.12500   8.28749         4
+Burlington*Duplex      91.72500   6.35052         4
+Eden*Duplex           106.17500   3.29684         4
+Gibsonville*Duplex    113.67500   6.12665         4
+Graham*Duplex         113.75000   4.83701         4
+Mebane*Duplex          95.87500   5.98073         4
+Reidsville*Duplex      91.25000   7.58837         4
+Burlington*Quad       104.52500   5.29552         4
+Eden*Quad             120.10000   3.46699         4
+Gibsonville*Quad      125.10000   7.02709         4
+Graham*Quad           121.15000   6.36318         4
+Mebane*Quad           108.20000   6.76609         4
+Reidsville*Quad       101.97500   5.44388         4
+Burlington*Single      89.32500   4.43048         4
+Eden*Single           102.32500   6.18729         4
+Gibsonville*Single    107.05000   9.10476         4
+Graham*Single         100.35000   6.66358         4
+Mebane*Single          91.00000   3.27516         4
+Reidsville*Single      83.50000   5.69620         4
+
+          Means for Effect: City          
+
+Level             Mean   Std Dev         N
+-----------  ---------  --------  --------
+Burlington    96.20625   8.21417        16
+Eden         110.46875   8.25661        16
+Gibsonville  116.88750   9.72666        16
+Graham       113.53750  10.21077        16
+Mebane        99.35000   8.34913        16
+Reidsville    93.21250   9.30533        16
+
+        Means for Effect: Style        
+
+Level          Mean   Std Dev         N
+--------  ---------  --------  --------
+Boarding  108.60000  11.80597        24
+Duplex    102.07500  11.06920        24
+Quad      113.50833  10.48493        24
+Single     95.59167  10.01846        24
+
+  Least Squares Means for Style   
+
+Level       LSMean  Standard Error
+--------  --------  --------------
+Boarding  108.6000                
+Duplex    102.0750                
+Quad      113.5083                
+Single     95.5917                
+
+Differences of Least Squares Means for Style (Adjustment for Multiple Comparisons: Tukey)
+
+Comparison         Estimate  Standard Error   t Value  Pr > |t|     Adj P
+-----------------  --------  --------------  --------  --------  --------
+Boarding - Duplex    6.5250          1.7979      3.63    0.0005    0.0029
+Boarding - Quad     -4.9083          1.7979     -2.73    0.0080    0.0389
+Boarding - Single   13.0083          1.7979      7.24    <.0001    <.0001
+Duplex - Quad      -11.4333          1.7979     -6.36    <.0001    <.0001
+Duplex - Single      6.4833          1.7979      3.61    0.0006    0.0031
+Quad - Single       17.9167          1.7979      9.97    <.0001    <.0001
+
+      Least Squares Means for City*Style      
+
+Level                   LSMean  Standard Error
+--------------------  --------  --------------
+Burlington*Boarding    99.2500          3.1141
+Eden*Boarding         113.2750          3.1141
+Gibsonville*Boarding  121.7250          3.1141
+Graham*Boarding       118.9000          3.1141
+Mebane*Boarding       102.3250          3.1141
+Reidsville*Boarding    96.1250          3.1141
+Burlington*Duplex      91.7250          3.1141
+Eden*Duplex           106.1750          3.1141
+Gibsonville*Duplex    113.6750          3.1141
+Graham*Duplex         113.7500          3.1141
+Mebane*Duplex          95.8750          3.1141
+Reidsville*Duplex      91.2500          3.1141
+Burlington*Quad       104.5250          3.1141
+Eden*Quad             120.1000          3.1141
+Gibsonville*Quad      125.1000          3.1141
+Graham*Quad           121.1500          3.1141
+Mebane*Quad           108.2000          3.1141
+Reidsville*Quad       101.9750          3.1141
+Burlington*Single      89.3250          3.1141
+Eden*Single           102.3250          3.1141
+Gibsonville*Single    107.0500          3.1141
+Graham*Single         100.3500          3.1141
+Mebane*Single          91.0000          3.1141
+Reidsville*Single      83.5000          3.1141
+
+                   Differences of Least Squares Means for City*Style                    
+
+Comparison                                  Estimate  Standard Error   t Value  Pr > |t|
+------------------------------------------  --------  --------------  --------  --------
+Burlington*Boarding - Eden*Boarding         -14.0250          4.4040     -3.18    0.0021
+Burlington*Boarding - Gibsonville*Boarding  -22.4750          4.4040     -5.10    <.0001
+Burlington*Boarding - Graham*Boarding       -19.6500          4.4040     -4.46    <.0001
+Burlington*Boarding - Mebane*Boarding        -3.0750          4.4040     -0.70    0.4873
+Burlington*Boarding - Reidsville*Boarding     3.1250          4.4040      0.71    0.4803
+Burlington*Boarding - Burlington*Duplex       7.5250          4.4040      1.71    0.0918
+Burlington*Boarding - Eden*Duplex            -6.9250          4.4040     -1.57    0.1202
+Burlington*Boarding - Gibsonville*Duplex    -14.4250          4.4040     -3.28    0.0016
+Burlington*Boarding - Graham*Duplex         -14.5000          4.4040     -3.29    0.0015
+Burlington*Boarding - Mebane*Duplex           3.3750          4.4040      0.77    0.4460
+Burlington*Boarding - Reidsville*Duplex       8.0000          4.4040      1.82    0.0734
+Burlington*Boarding - Burlington*Quad        -5.2750          4.4040     -1.20    0.2349
+Burlington*Boarding - Eden*Quad             -20.8500          4.4040     -4.73    <.0001
+Burlington*Boarding - Gibsonville*Quad      -25.8500          4.4040     -5.87    <.0001
+Burlington*Boarding - Graham*Quad           -21.9000          4.4040     -4.97    <.0001
+Burlington*Boarding - Mebane*Quad            -8.9500          4.4040     -2.03    0.0458
+Burlington*Boarding - Reidsville*Quad        -2.7250          4.4040     -0.62    0.5380
+Burlington*Boarding - Burlington*Single       9.9250          4.4040      2.25    0.0273
+Burlington*Boarding - Eden*Single            -3.0750          4.4040     -0.70    0.4873
+Burlington*Boarding - Gibsonville*Single     -7.8000          4.4040     -1.77    0.0808
+Burlington*Boarding - Graham*Single          -1.1000          4.4040     -0.25    0.8035
+Burlington*Boarding - Mebane*Single           8.2500          4.4040      1.87    0.0651
+Burlington*Boarding - Reidsville*Single      15.7500          4.4040      3.58    0.0006
+Eden*Boarding - Gibsonville*Boarding         -8.4500          4.4040     -1.92    0.0590
+Eden*Boarding - Graham*Boarding              -5.6250          4.4040     -1.28    0.2056
+Eden*Boarding - Mebane*Boarding              10.9500          4.4040      2.49    0.0152
+Eden*Boarding - Reidsville*Boarding          17.1500          4.4040      3.89    0.0002
+Eden*Boarding - Burlington*Duplex            21.5500          4.4040      4.89    <.0001
+Eden*Boarding - Eden*Duplex                   7.1000          4.4040      1.61    0.1113
+Eden*Boarding - Gibsonville*Duplex           -0.4000          4.4040     -0.09    0.9279
+Eden*Boarding - Graham*Duplex                -0.4750          4.4040     -0.11    0.9144
+Eden*Boarding - Mebane*Duplex                17.4000          4.4040      3.95    0.0002
+Eden*Boarding - Reidsville*Duplex            22.0250          4.4040      5.00    <.0001
+Eden*Boarding - Burlington*Quad               8.7500          4.4040      1.99    0.0507
+Eden*Boarding - Eden*Quad                    -6.8250          4.4040     -1.55    0.1256
+Eden*Boarding - Gibsonville*Quad            -11.8250          4.4040     -2.69    0.0090
+Eden*Boarding - Graham*Quad                  -7.8750          4.4040     -1.79    0.0780
+Eden*Boarding - Mebane*Quad                   5.0750          4.4040      1.15    0.2530
+Eden*Boarding - Reidsville*Quad              11.3000          4.4040      2.57    0.0124
+Eden*Boarding - Burlington*Single            23.9500          4.4040      5.44    <.0001
+Eden*Boarding - Eden*Single                  10.9500          4.4040      2.49    0.0152
+Eden*Boarding - Gibsonville*Single            6.2250          4.4040      1.41    0.1618
+Eden*Boarding - Graham*Single                12.9250          4.4040      2.93    0.0045
+Eden*Boarding - Mebane*Single                22.2750          4.4040      5.06    <.0001
+Eden*Boarding - Reidsville*Single            29.7750          4.4040      6.76    <.0001
+Gibsonville*Boarding - Graham*Boarding        2.8250          4.4040      0.64    0.5233
+Gibsonville*Boarding - Mebane*Boarding       19.4000          4.4040      4.41    <.0001
+Gibsonville*Boarding - Reidsville*Boarding   25.6000          4.4040      5.81    <.0001
+Gibsonville*Boarding - Burlington*Duplex     30.0000          4.4040      6.81    <.0001
+Gibsonville*Boarding - Eden*Duplex           15.5500          4.4040      3.53    0.0007
+Gibsonville*Boarding - Gibsonville*Duplex     8.0500          4.4040      1.83    0.0717
+Gibsonville*Boarding - Graham*Duplex          7.9750          4.4040      1.81    0.0743
+Gibsonville*Boarding - Mebane*Duplex         25.8500          4.4040      5.87    <.0001
+Gibsonville*Boarding - Reidsville*Duplex     30.4750          4.4040      6.92    <.0001
+Gibsonville*Boarding - Burlington*Quad       17.2000          4.4040      3.91    0.0002
+Gibsonville*Boarding - Eden*Quad              1.6250          4.4040      0.37    0.7132
+Gibsonville*Boarding - Gibsonville*Quad      -3.3750          4.4040     -0.77    0.4460
+Gibsonville*Boarding - Graham*Quad            0.5750          4.4040      0.13    0.8965
+Gibsonville*Boarding - Mebane*Quad           13.5250          4.4040      3.07    0.0030
+Gibsonville*Boarding - Reidsville*Quad       19.7500          4.4040      4.48    <.0001
+Gibsonville*Boarding - Burlington*Single     32.4000          4.4040      7.36    <.0001
+Gibsonville*Boarding - Eden*Single           19.4000          4.4040      4.41    <.0001
+Gibsonville*Boarding - Gibsonville*Single    14.6750          4.4040      3.33    0.0014
+Gibsonville*Boarding - Graham*Single         21.3750          4.4040      4.85    <.0001
+Gibsonville*Boarding - Mebane*Single         30.7250          4.4040      6.98    <.0001
+Gibsonville*Boarding - Reidsville*Single     38.2250          4.4040      8.68    <.0001
+Graham*Boarding - Mebane*Boarding            16.5750          4.4040      3.76    0.0003
+Graham*Boarding - Reidsville*Boarding        22.7750          4.4040      5.17    <.0001
+Graham*Boarding - Burlington*Duplex          27.1750          4.4040      6.17    <.0001
+Graham*Boarding - Eden*Duplex                12.7250          4.4040      2.89    0.0051
+Graham*Boarding - Gibsonville*Duplex          5.2250          4.4040      1.19    0.2394
+Graham*Boarding - Graham*Duplex               5.1500          4.4040      1.17    0.2461
+Graham*Boarding - Mebane*Duplex              23.0250          4.4040      5.23    <.0001
+Graham*Boarding - Reidsville*Duplex          27.6500          4.4040      6.28    <.0001
+Graham*Boarding - Burlington*Quad            14.3750          4.4040      3.26    0.0017
+Graham*Boarding - Eden*Quad                  -1.2000          4.4040     -0.27    0.7860
+Graham*Boarding - Gibsonville*Quad           -6.2000          4.4040     -1.41    0.1635
+Graham*Boarding - Graham*Quad                -2.2500          4.4040     -0.51    0.6110
+Graham*Boarding - Mebane*Quad                10.7000          4.4040      2.43    0.0176
+Graham*Boarding - Reidsville*Quad            16.9250          4.4040      3.84    0.0003
+Graham*Boarding - Burlington*Single          29.5750          4.4040      6.72    <.0001
+Graham*Boarding - Eden*Single                16.5750          4.4040      3.76    0.0003
+Graham*Boarding - Gibsonville*Single         11.8500          4.4040      2.69    0.0089
+Graham*Boarding - Graham*Single              18.5500          4.4040      4.21    <.0001
+Graham*Boarding - Mebane*Single              27.9000          4.4040      6.34    <.0001
+Graham*Boarding - Reidsville*Single          35.4000          4.4040      8.04    <.0001
+Mebane*Boarding - Reidsville*Boarding         6.2000          4.4040      1.41    0.1635
+Mebane*Boarding - Burlington*Duplex          10.6000          4.4040      2.41    0.0187
+Mebane*Boarding - Eden*Duplex                -3.8500          4.4040     -0.87    0.3849
+Mebane*Boarding - Gibsonville*Duplex        -11.3500          4.4040     -2.58    0.0120
+Mebane*Boarding - Graham*Duplex             -11.4250          4.4040     -2.59    0.0115
+Mebane*Boarding - Mebane*Duplex               6.4500          4.4040      1.46    0.1474
+Mebane*Boarding - Reidsville*Duplex          11.0750          4.4040      2.51    0.0141
+Mebane*Boarding - Burlington*Quad            -2.2000          4.4040     -0.50    0.6189
+Mebane*Boarding - Eden*Quad                 -17.7750          4.4040     -4.04    0.0001
+Mebane*Boarding - Gibsonville*Quad          -22.7750          4.4040     -5.17    <.0001
+Mebane*Boarding - Graham*Quad               -18.8250          4.4040     -4.27    <.0001
+Mebane*Boarding - Mebane*Quad                -5.8750          4.4040     -1.33    0.1864
+Mebane*Boarding - Reidsville*Quad             0.3500          4.4040      0.08    0.9369
+Mebane*Boarding - Burlington*Single          13.0000          4.4040      2.95    0.0043
+Mebane*Boarding - Eden*Single                -0.0000          4.4040     -0.00    1.0000
+Mebane*Boarding - Gibsonville*Single         -4.7250          4.4040     -1.07    0.2869
+Mebane*Boarding - Graham*Single               1.9750          4.4040      0.45    0.6552
+Mebane*Boarding - Mebane*Single              11.3250          4.4040      2.57    0.0122
+Mebane*Boarding - Reidsville*Single          18.8250          4.4040      4.27    <.0001
+Reidsville*Boarding - Burlington*Duplex       4.4000          4.4040      1.00    0.3211
+Reidsville*Boarding - Eden*Duplex           -10.0500          4.4040     -2.28    0.0254
+Reidsville*Boarding - Gibsonville*Duplex    -17.5500          4.4040     -3.99    0.0002
+Reidsville*Boarding - Graham*Duplex         -17.6250          4.4040     -4.00    0.0002
+Reidsville*Boarding - Mebane*Duplex           0.2500          4.4040      0.06    0.9549
+Reidsville*Boarding - Reidsville*Duplex       4.8750          4.4040      1.11    0.2720
+Reidsville*Boarding - Burlington*Quad        -8.4000          4.4040     -1.91    0.0605
+Reidsville*Boarding - Eden*Quad             -23.9750          4.4040     -5.44    <.0001
+Reidsville*Boarding - Gibsonville*Quad      -28.9750          4.4040     -6.58    <.0001
+Reidsville*Boarding - Graham*Quad           -25.0250          4.4040     -5.68    <.0001
+Reidsville*Boarding - Mebane*Quad           -12.0750          4.4040     -2.74    0.0077
+Reidsville*Boarding - Reidsville*Quad        -5.8500          4.4040     -1.33    0.1883
+Reidsville*Boarding - Burlington*Single       6.8000          4.4040      1.54    0.1270
+Reidsville*Boarding - Eden*Single            -6.2000          4.4040     -1.41    0.1635
+Reidsville*Boarding - Gibsonville*Single    -10.9250          4.4040     -2.48    0.0154
+Reidsville*Boarding - Graham*Single          -4.2250          4.4040     -0.96    0.3406
+Reidsville*Boarding - Mebane*Single           5.1250          4.4040      1.16    0.2484
+Reidsville*Boarding - Reidsville*Single      12.6250          4.4040      2.87    0.0054
+Burlington*Duplex - Eden*Duplex             -14.4500          4.4040     -3.28    0.0016
+Burlington*Duplex - Gibsonville*Duplex      -21.9500          4.4040     -4.98    <.0001
+Burlington*Duplex - Graham*Duplex           -22.0250          4.4040     -5.00    <.0001
+Burlington*Duplex - Mebane*Duplex            -4.1500          4.4040     -0.94    0.3492
+Burlington*Duplex - Reidsville*Duplex         0.4750          4.4040      0.11    0.9144
+Burlington*Duplex - Burlington*Quad         -12.8000          4.4040     -2.91    0.0049
+Burlington*Duplex - Eden*Quad               -28.3750          4.4040     -6.44    <.0001
+Burlington*Duplex - Gibsonville*Quad        -33.3750          4.4040     -7.58    <.0001
+Burlington*Duplex - Graham*Quad             -29.4250          4.4040     -6.68    <.0001
+Burlington*Duplex - Mebane*Quad             -16.4750          4.4040     -3.74    0.0004
+Burlington*Duplex - Reidsville*Quad         -10.2500          4.4040     -2.33    0.0228
+Burlington*Duplex - Burlington*Single         2.4000          4.4040      0.54    0.5875
+Burlington*Duplex - Eden*Single             -10.6000          4.4040     -2.41    0.0187
+Burlington*Duplex - Gibsonville*Single      -15.3250          4.4040     -3.48    0.0009
+Burlington*Duplex - Graham*Single            -8.6250          4.4040     -1.96    0.0541
+Burlington*Duplex - Mebane*Single             0.7250          4.4040      0.16    0.8697
+Burlington*Duplex - Reidsville*Single         8.2250          4.4040      1.87    0.0659
+Eden*Duplex - Gibsonville*Duplex             -7.5000          4.4040     -1.70    0.0929
+Eden*Duplex - Graham*Duplex                  -7.5750          4.4040     -1.72    0.0897
+Eden*Duplex - Mebane*Duplex                  10.3000          4.4040      2.34    0.0221
+Eden*Duplex - Reidsville*Duplex              14.9250          4.4040      3.39    0.0011
+Eden*Duplex - Burlington*Quad                 1.6500          4.4040      0.37    0.7090
+Eden*Duplex - Eden*Quad                     -13.9250          4.4040     -3.16    0.0023
+Eden*Duplex - Gibsonville*Quad              -18.9250          4.4040     -4.30    <.0001
+Eden*Duplex - Graham*Quad                   -14.9750          4.4040     -3.40    0.0011
+Eden*Duplex - Mebane*Quad                    -2.0250          4.4040     -0.46    0.6470
+Eden*Duplex - Reidsville*Quad                 4.2000          4.4040      0.95    0.3434
+Eden*Duplex - Burlington*Single              16.8500          4.4040      3.83    0.0003
+Eden*Duplex - Eden*Single                     3.8500          4.4040      0.87    0.3849
+Eden*Duplex - Gibsonville*Single             -0.8750          4.4040     -0.20    0.8431
+Eden*Duplex - Graham*Single                   5.8250          4.4040      1.32    0.1901
+Eden*Duplex - Mebane*Single                  15.1750          4.4040      3.45    0.0010
+Eden*Duplex - Reidsville*Single              22.6750          4.4040      5.15    <.0001
+Gibsonville*Duplex - Graham*Duplex           -0.0750          4.4040     -0.02    0.9865
+Gibsonville*Duplex - Mebane*Duplex           17.8000          4.4040      4.04    0.0001
+Gibsonville*Duplex - Reidsville*Duplex       22.4250          4.4040      5.09    <.0001
+Gibsonville*Duplex - Burlington*Quad          9.1500          4.4040      2.08    0.0413
+Gibsonville*Duplex - Eden*Quad               -6.4250          4.4040     -1.46    0.1489
+Gibsonville*Duplex - Gibsonville*Quad       -11.4250          4.4040     -2.59    0.0115
+Gibsonville*Duplex - Graham*Quad             -7.4750          4.4040     -1.70    0.0940
+Gibsonville*Duplex - Mebane*Quad              5.4750          4.4040      1.24    0.2178
+Gibsonville*Duplex - Reidsville*Quad         11.7000          4.4040      2.66    0.0097
+Gibsonville*Duplex - Burlington*Single       24.3500          4.4040      5.53    <.0001
+Gibsonville*Duplex - Eden*Single             11.3500          4.4040      2.58    0.0120
+Gibsonville*Duplex - Gibsonville*Single       6.6250          4.4040      1.50    0.1369
+Gibsonville*Duplex - Graham*Single           13.3250          4.4040      3.03    0.0034
+Gibsonville*Duplex - Mebane*Single           22.6750          4.4040      5.15    <.0001
+Gibsonville*Duplex - Reidsville*Single       30.1750          4.4040      6.85    <.0001
+Graham*Duplex - Mebane*Duplex                17.8750          4.4040      4.06    0.0001
+Graham*Duplex - Reidsville*Duplex            22.5000          4.4040      5.11    <.0001
+Graham*Duplex - Burlington*Quad               9.2250          4.4040      2.09    0.0397
+Graham*Duplex - Eden*Quad                    -6.3500          4.4040     -1.44    0.1537
+Graham*Duplex - Gibsonville*Quad            -11.3500          4.4040     -2.58    0.0120
+Graham*Duplex - Graham*Quad                  -7.4000          4.4040     -1.68    0.0972
+Graham*Duplex - Mebane*Quad                   5.5500          4.4040      1.26    0.2117
+Graham*Duplex - Reidsville*Quad              11.7750          4.4040      2.67    0.0093
+Graham*Duplex - Burlington*Single            24.4250          4.4040      5.55    <.0001
+Graham*Duplex - Eden*Single                  11.4250          4.4040      2.59    0.0115
+Graham*Duplex - Gibsonville*Single            6.7000          4.4040      1.52    0.1326
+Graham*Duplex - Graham*Single                13.4000          4.4040      3.04    0.0033
+Graham*Duplex - Mebane*Single                22.7500          4.4040      5.17    <.0001
+Graham*Duplex - Reidsville*Single            30.2500          4.4040      6.87    <.0001
+Mebane*Duplex - Reidsville*Duplex             4.6250          4.4040      1.05    0.2971
+Mebane*Duplex - Burlington*Quad              -8.6500          4.4040     -1.96    0.0534
+Mebane*Duplex - Eden*Quad                   -24.2250          4.4040     -5.50    <.0001
+Mebane*Duplex - Gibsonville*Quad            -29.2250          4.4040     -6.64    <.0001
+Mebane*Duplex - Graham*Quad                 -25.2750          4.4040     -5.74    <.0001
+Mebane*Duplex - Mebane*Quad                 -12.3250          4.4040     -2.80    0.0066
+Mebane*Duplex - Reidsville*Quad              -6.1000          4.4040     -1.39    0.1703
+Mebane*Duplex - Burlington*Single             6.5500          4.4040      1.49    0.1413
+Mebane*Duplex - Eden*Single                  -6.4500          4.4040     -1.46    0.1474
+Mebane*Duplex - Gibsonville*Single          -11.1750          4.4040     -2.54    0.0133
+Mebane*Duplex - Graham*Single                -4.4750          4.4040     -1.02    0.3130
+Mebane*Duplex - Mebane*Single                 4.8750          4.4040      1.11    0.2720
+Mebane*Duplex - Reidsville*Single            12.3750          4.4040      2.81    0.0064
+Reidsville*Duplex - Burlington*Quad         -13.2750          4.4040     -3.01    0.0036
+Reidsville*Duplex - Eden*Quad               -28.8500          4.4040     -6.55    <.0001
+Reidsville*Duplex - Gibsonville*Quad        -33.8500          4.4040     -7.69    <.0001
+Reidsville*Duplex - Graham*Quad             -29.9000          4.4040     -6.79    <.0001
+Reidsville*Duplex - Mebane*Quad             -16.9500          4.4040     -3.85    0.0003
+Reidsville*Duplex - Reidsville*Quad         -10.7250          4.4040     -2.44    0.0174
+Reidsville*Duplex - Burlington*Single         1.9250          4.4040      0.44    0.6633
+Reidsville*Duplex - Eden*Single             -11.0750          4.4040     -2.51    0.0141
+Reidsville*Duplex - Gibsonville*Single      -15.8000          4.4040     -3.59    0.0006
+Reidsville*Duplex - Graham*Single            -9.1000          4.4040     -2.07    0.0424
+Reidsville*Duplex - Mebane*Single             0.2500          4.4040      0.06    0.9549
+Reidsville*Duplex - Reidsville*Single         7.7500          4.4040      1.76    0.0827
+Burlington*Quad - Eden*Quad                 -15.5750          4.4040     -3.54    0.0007
+Burlington*Quad - Gibsonville*Quad          -20.5750          4.4040     -4.67    <.0001
+Burlington*Quad - Graham*Quad               -16.6250          4.4040     -3.78    0.0003
+Burlington*Quad - Mebane*Quad                -3.6750          4.4040     -0.83    0.4068
+Burlington*Quad - Reidsville*Quad             2.5500          4.4040      0.58    0.5644
+Burlington*Quad - Burlington*Single          15.2000          4.4040      3.45    0.0009
+Burlington*Quad - Eden*Single                 2.2000          4.4040      0.50    0.6189
+Burlington*Quad - Gibsonville*Single         -2.5250          4.4040     -0.57    0.5682
+Burlington*Quad - Graham*Single               4.1750          4.4040      0.95    0.3463
+Burlington*Quad - Mebane*Single              13.5250          4.4040      3.07    0.0030
+Burlington*Quad - Reidsville*Single          21.0250          4.4040      4.77    <.0001
+Eden*Quad - Gibsonville*Quad                 -5.0000          4.4040     -1.14    0.2600
+Eden*Quad - Graham*Quad                      -1.0500          4.4040     -0.24    0.8122
+Eden*Quad - Mebane*Quad                      11.9000          4.4040      2.70    0.0086
+Eden*Quad - Reidsville*Quad                  18.1250          4.4040      4.12    0.0001
+Eden*Quad - Burlington*Single                30.7750          4.4040      6.99    <.0001
+Eden*Quad - Eden*Single                      17.7750          4.4040      4.04    0.0001
+Eden*Quad - Gibsonville*Single               13.0500          4.4040      2.96    0.0041
+Eden*Quad - Graham*Single                    19.7500          4.4040      4.48    <.0001
+Eden*Quad - Mebane*Single                    29.1000          4.4040      6.61    <.0001
+Eden*Quad - Reidsville*Single                36.6000          4.4040      8.31    <.0001
+Gibsonville*Quad - Graham*Quad                3.9500          4.4040      0.90    0.3728
+Gibsonville*Quad - Mebane*Quad               16.9000          4.4040      3.84    0.0003
+Gibsonville*Quad - Reidsville*Quad           23.1250          4.4040      5.25    <.0001
+Gibsonville*Quad - Burlington*Single         35.7750          4.4040      8.12    <.0001
+Gibsonville*Quad - Eden*Single               22.7750          4.4040      5.17    <.0001
+Gibsonville*Quad - Gibsonville*Single        18.0500          4.4040      4.10    0.0001
+Gibsonville*Quad - Graham*Single             24.7500          4.4040      5.62    <.0001
+Gibsonville*Quad - Mebane*Single             34.1000          4.4040      7.74    <.0001
+Gibsonville*Quad - Reidsville*Single         41.6000          4.4040      9.45    <.0001
+Graham*Quad - Mebane*Quad                    12.9500          4.4040      2.94    0.0044
+Graham*Quad - Reidsville*Quad                19.1750          4.4040      4.35    <.0001
+Graham*Quad - Burlington*Single              31.8250          4.4040      7.23    <.0001
+Graham*Quad - Eden*Single                    18.8250          4.4040      4.27    <.0001
+Graham*Quad - Gibsonville*Single             14.1000          4.4040      3.20    0.0020
+Graham*Quad - Graham*Single                  20.8000          4.4040      4.72    <.0001
+Graham*Quad - Mebane*Single                  30.1500          4.4040      6.85    <.0001
+Graham*Quad - Reidsville*Single              37.6500          4.4040      8.55    <.0001
+Mebane*Quad - Reidsville*Quad                 6.2250          4.4040      1.41    0.1618
+Mebane*Quad - Burlington*Single              18.8750          4.4040      4.29    <.0001
+Mebane*Quad - Eden*Single                     5.8750          4.4040      1.33    0.1864
+Mebane*Quad - Gibsonville*Single              1.1500          4.4040      0.26    0.7947
+Mebane*Quad - Graham*Single                   7.8500          4.4040      1.78    0.0789
+Mebane*Quad - Mebane*Single                  17.2000          4.4040      3.91    0.0002
+Mebane*Quad - Reidsville*Single              24.7000          4.4040      5.61    <.0001
+Reidsville*Quad - Burlington*Single          12.6500          4.4040      2.87    0.0053
+Reidsville*Quad - Eden*Single                -0.3500          4.4040     -0.08    0.9369
+Reidsville*Quad - Gibsonville*Single         -5.0750          4.4040     -1.15    0.2530
+Reidsville*Quad - Graham*Single               1.6250          4.4040      0.37    0.7132
+Reidsville*Quad - Mebane*Single              10.9750          4.4040      2.49    0.0150
+Reidsville*Quad - Reidsville*Single          18.4750          4.4040      4.20    <.0001
+Burlington*Single - Eden*Single             -13.0000          4.4040     -2.95    0.0043
+Burlington*Single - Gibsonville*Single      -17.7250          4.4040     -4.02    0.0001
+Burlington*Single - Graham*Single           -11.0250          4.4040     -2.50    0.0146
+Burlington*Single - Mebane*Single            -1.6750          4.4040     -0.38    0.7048
+Burlington*Single - Reidsville*Single         5.8250          4.4040      1.32    0.1901
+Eden*Single - Gibsonville*Single             -4.7250          4.4040     -1.07    0.2869
+Eden*Single - Graham*Single                   1.9750          4.4040      0.45    0.6552
+Eden*Single - Mebane*Single                  11.3250          4.4040      2.57    0.0122
+Eden*Single - Reidsville*Single              18.8250          4.4040      4.27    <.0001
+Gibsonville*Single - Graham*Single            6.7000          4.4040      1.52    0.1326
+Gibsonville*Single - Mebane*Single           16.0500          4.4040      3.64    0.0005
+Gibsonville*Single - Reidsville*Single       23.5500          4.4040      5.35    <.0001
+Graham*Single - Mebane*Single                 9.3500          4.4040      2.12    0.0372
+Graham*Single - Reidsville*Single            16.8500          4.4040      3.83    0.0003
+Mebane*Single - Reidsville*Single             7.5000          4.4040      1.70    0.0929
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

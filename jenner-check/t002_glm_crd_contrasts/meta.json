@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_glm_crd_contrasts",
+  "source_file": "Experimental Design Analysis.sas",
+  "source_blob_sha": "a1d28c010171f4eaf25aa13b9d8a2ed5fbbc2e8e",
+  "source_commit": "27d0a1a5d9886cc26fabe3a220c1bf21dd7a4c6f",
+  "notes": "CRD one-way GLM slice (Class City; Model EBITDA=City; Means City/REGWQ tukey; three orthogonal CONTRASTs) from the BIA 654 project. External PROC IMPORT replaced with a balanced inline DATA Prop sample (4 companies x 6 cities x 4 styles); GLM/CONTRAST statements verbatim."
+}
