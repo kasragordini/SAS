@@ -1,0 +1,666 @@
+                      Exploratory Data Analysis - By City                      1
+
+------------------------------- City=Burlington --------------------------------
+
+                            The UNIVARIATE Procedure
+                               Variable:  EBITDA
+
+                                    Moments
+
+N                                  6    Sum Weights                        6
+Mean                       97.816667    Sum Observations          586.900000
+Std Deviation              11.694172    Variance                  136.753667
+Skewness                   -0.005841    Kurtosis                    0.859825
+Uncorrected SS          58092.370000    Corrected SS              683.768333
+Coeff Variation            11.955194    Std Error Mean              4.774126
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      97.816667  Std Deviation   11.694172
+Median    98.850000  Variance       136.753667
+Mode              .  Range           35.000000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       80.400000
+1%           80.400000
+5%           80.400000
+10%          80.400000
+25% Q1       91.200000
+50% Median   98.850000
+75% Q3      102.200000
+90%         115.400000
+95%         115.400000
+99%         115.400000
+100% Max    115.400000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      80.400000  Value      91.200000
+Value      91.200000  Value      97.100000
+Value      97.100000  Value     100.600000
+Value     100.600000  Value     102.200000
+Value     102.200000  Value     115.400000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.981102742  0.956906057
+Kolmogorov-Smirnov  0.18722657  0.957641141
+Anderson-Darling    0.191976542      0.15
+Cramer-von Mises    0.03006369  0.984966935
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         20.488916595  0.000005125
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+---------------------------------- City=Eden -----------------------------------
+
+                            The UNIVARIATE Procedure
+                               Variable:  EBITDA
+
+                                    Moments
+
+N                                  6    Sum Weights                        6
+Mean                      106.850000    Sum Observations          641.100000
+Std Deviation               7.621745    Variance                   58.091000
+Skewness                   -0.415018    Kurtosis                    1.000060
+Uncorrected SS          68791.990000    Corrected SS              290.455000
+Coeff Variation             7.133126    Std Error Mean              3.111564
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      106.850000  Std Deviation   7.621745
+Median    106.600000  Variance       58.091000
+Mode               .  Range          22.700000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       94.600000
+1%           94.600000
+5%           94.600000
+10%          94.600000
+25% Q1      104.500000
+50% Median  106.600000
+75% Q3      111.500000
+90%         117.300000
+95%         117.300000
+99%         117.300000
+100% Max    117.300000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      94.600000  Value     104.500000
+Value     104.500000  Value     105.200000
+Value     105.200000  Value     108.000000
+Value     108.000000  Value     111.500000
+Value     111.500000  Value     117.300000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.972589358  0.909355167
+Kolmogorov-Smirnov  0.212249587  0.901251733
+Anderson-Darling    0.207544838      0.15
+Cramer-von Mises    0.032360457  0.978289966
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         34.339639008  0.000000394
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+------------------------------- City=Gibsonville -------------------------------
+
+                            The UNIVARIATE Procedure
+                               Variable:  EBITDA
+
+                                    Moments
+
+N                                  6    Sum Weights                        6
+Mean                      115.016667    Sum Observations          690.100000
+Std Deviation               8.615200    Variance                   74.221667
+Skewness                    0.950938    Kurtosis                    1.936924
+Uncorrected SS          79744.110000    Corrected SS              371.108333
+Coeff Variation             7.490392    Std Error Mean              3.517141
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      115.016667  Std Deviation   8.615200
+Median    113.700000  Variance       74.221667
+Mode               .  Range          25.800000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      104.200000
+1%          104.200000
+5%          104.200000
+10%         104.200000
+25% Q1      111.100000
+50% Median  113.700000
+75% Q3      117.400000
+90%         130.000000
+95%         130.000000
+99%         130.000000
+100% Max    130.000000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     104.200000  Value     111.100000
+Value     111.100000  Value     112.100000
+Value     112.100000  Value     115.300000
+Value     115.300000  Value     117.400000
+Value     117.400000  Value     130.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.936203671  0.628784756
+Kolmogorov-Smirnov  0.224360516  0.864455072
+Anderson-Darling    0.299593481      0.15
+Cramer-von Mises    0.04895227  0.900155358
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         32.701754289  0.000000502
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+                    Stem Leaf                     #  Boxplot
+                 80 |4                      1   
+                 81 |                       0   
+                 82 |                       0   
+                 83 |                       0   
+                 84 |                       0   
+                 85 |                       0   
+                 86 |                       0   
+                 87 |                       0   
+                 88 |                       0   
+                 89 |                       0   
+                 90 |                       0   
+                 91 |2                      1   
+                 92 |                       0   
+                 93 |                       0   
+                 94 |5                      1   
+                 95 |                       0   
+                 96 |                       0   
+                 97 |0                      1   
+                 98 |                       0   
+                 99 |                       0   
+                100 |5                      1   
+                101 |                       0  |
+                102 |2                      1  |
+                103 |                       0  |
+                104 |25                     2  |
+                105 |2                      1  |
+                106 |                       0  +
+                107 |                       0  +
+                108 |0                      1  |
+                109 |                       0  |
+                110 |                       0  |
+                111 |05                     2  |
+                112 |0                      1  |
+                113 |                       0  |
+                114 |                       0  |
+                115 |24                     2   
+                116 |                       0   
+                117 |24                     2   
+                118 |                       0   
+                119 |                       0   
+                120 |                       0   
+                121 |                       0   
+                122 |                       0   
+                123 |                       0   
+                124 |                       0   
+                125 |                       0   
+                126 |                       0   
+                127 |                       0   
+                128 |                       0   
+                129 |                       0   
+                130 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                         Normal Probability Plot
+       130+                                           *++++
+          |                                         +++
+          |                                      +++
+          |                                  ++*+*
+          |                               +**
+          |                           **+*
+          |                        *+*+
+          |                    *+**
+          |                  *++
+          |              *++*
+          |           +*+
+          |        +++
+          |    ++++
+      80.4+ +++   *
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+
+                                Schematic Plots
+
+       130 +                              0
+           |
+           |
+           |      |           |        +--+--+
+    111.96 +      |        +-----+     +-----+
+           |      |        *--+--*        |
+           |   +-----+     +-----+        |
+           |   *--+--*        |
+     93.93 +   |     |        |
+           |   +-----+
+           |      |
+      80.4 +      |
+           ------+-----------+-----------+-----
+      City  Burlington     Eden    Gibsonville
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      Exploratory Data Analysis - By Style                     7
+
+--------------------------------- Style=Duplex ---------------------------------
+
+                            The UNIVARIATE Procedure
+                               Variable:  EBITDA
+
+                                    Moments
+
+N                                  6    Sum Weights                        6
+Mean                      104.650000    Sum Observations          627.900000
+Std Deviation               8.398274    Variance                   70.531000
+Skewness                   -0.518177    Kurtosis                    0.446629
+Uncorrected SS          66062.390000    Corrected SS              352.655000
+Coeff Variation             8.025106    Std Error Mean              3.428581
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      104.650000  Std Deviation   8.398274
+Median    104.850000  Variance       70.531000
+Mode               .  Range          24.100000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       91.200000
+1%           91.200000
+5%           91.200000
+10%          91.200000
+25% Q1      100.600000
+50% Median  104.850000
+75% Q3      111.100000
+90%         115.300000
+95%         115.300000
+99%         115.300000
+100% Max    115.300000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      91.200000  Value     100.600000
+Value     100.600000  Value     104.500000
+Value     104.500000  Value     105.200000
+Value     105.200000  Value     111.100000
+Value     111.100000  Value     115.300000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.971005683  0.899120811
+Kolmogorov-Smirnov  0.159541612  0.990973376
+Anderson-Darling    0.193049787      0.15
+Cramer-von Mises    0.029186297  0.987178582
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         30.522832764  0.000000708
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+---------------------------------- Style=Quad ----------------------------------
+
+                            The UNIVARIATE Procedure
+                               Variable:  EBITDA
+
+                                    Moments
+
+N                                  6    Sum Weights                        6
+Mean                      115.633333    Sum Observations          693.800000
+Std Deviation               9.054207    Variance                   81.978667
+Skewness                    0.194290    Kurtosis                    1.611347
+Uncorrected SS          80636.300000    Corrected SS              409.893333
+Coeff Variation             7.830101    Std Error Mean              3.696365
+
+          Basic Statistical Measures          
+
+Location              Variability             
+--------  ----------  -------------  ---------
+Mean      115.633333  Std Deviation   9.054207
+Median    116.350000  Variance       81.978667
+Mode               .  Range          27.800000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min      102.200000
+1%          102.200000
+5%          102.200000
+10%         102.200000
+25% Q1      111.500000
+50% Median  116.350000
+75% Q3      117.400000
+90%         130.000000
+95%         130.000000
+99%         130.000000
+100% Max    130.000000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value     102.200000  Value     111.500000
+Value     111.500000  Value     115.400000
+Value     115.400000  Value     117.300000
+Value     117.300000  Value     117.400000
+Value     117.400000  Value     130.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.94666154  0.713185948
+Kolmogorov-Smirnov  0.255982414  0.744916454
+Anderson-Darling    0.30657312      0.15
+Cramer-von Mises    0.055555882  0.860508047
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         31.282989223  0.000000627
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+--------------------------------- Style=Single ---------------------------------
+
+                            The UNIVARIATE Procedure
+                               Variable:  EBITDA
+
+                                    Moments
+
+N                                  6    Sum Weights                        6
+Mean                       99.400000    Sum Observations          596.400000
+Std Deviation              11.380861    Variance                  129.524000
+Skewness                   -0.852061    Kurtosis                    0.546822
+Uncorrected SS          59929.780000    Corrected SS              647.620000
+Coeff Variation            11.449558    Std Error Mean              4.646217
+
+          Basic Statistical Measures           
+
+Location              Variability              
+--------  ----------  -------------  ----------
+Mean       99.400000  Std Deviation   11.380861
+Median    100.650000  Variance       129.524000
+Mode               .  Range           31.700000
+
+Quantiles (Definition 5)
+
+Quantile      Estimate
+----------  ----------
+0% Min       80.400000
+1%           80.400000
+5%           80.400000
+10%          80.400000
+25% Q1       94.600000
+50% Median  100.650000
+75% Q3      108.000000
+90%         112.100000
+95%         112.100000
+99%         112.100000
+100% Max    112.100000
+
+           Extreme Observations           
+
+Lowest                Highest             
+--------  ----------  --------  ----------
+Value      80.400000  Value      94.600000
+Value      94.600000  Value      97.100000
+Value      97.100000  Value     104.200000
+Value     104.200000  Value     108.000000
+Value     108.000000  Value     112.100000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.947421543  0.719361054
+Kolmogorov-Smirnov  0.169933179  0.981356853
+Anderson-Darling    0.227028355      0.15
+Cramer-von Mises    0.032112412  0.979071781
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         21.393748479  0.000004138
+Sign                        3   0.03125
+Signed Rank                21  0.027707754
+
+
+                    Stem Leaf                     #  Boxplot
+                 80 |4                      1   
+                 81 |                       0   
+                 82 |                       0   
+                 83 |                       0   
+                 84 |                       0   
+                 85 |                       0   
+                 86 |                       0   
+                 87 |                       0   
+                 88 |                       0   
+                 89 |                       0   
+                 90 |                       0   
+                 91 |2                      1   
+                 92 |                       0   
+                 93 |                       0   
+                 94 |5                      1   
+                 95 |                       0   
+                 96 |                       0   
+                 97 |0                      1   
+                 98 |                       0   
+                 99 |                       0   
+                100 |5                      1   
+                101 |                       0  |
+                102 |2                      1  |
+                103 |                       0  |
+                104 |25                     2  |
+                105 |2                      1  |
+                106 |                       0  +
+                107 |                       0  +
+                108 |0                      1  |
+                109 |                       0  |
+                110 |                       0  |
+                111 |05                     2  |
+                112 |0                      1  |
+                113 |                       0  |
+                114 |                       0  |
+                115 |24                     2   
+                116 |                       0   
+                117 |24                     2   
+                118 |                       0   
+                119 |                       0   
+                120 |                       0   
+                121 |                       0   
+                122 |                       0   
+                123 |                       0   
+                124 |                       0   
+                125 |                       0   
+                126 |                       0   
+                127 |                       0   
+                128 |                       0   
+                129 |                       0   
+                130 |0                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                         Normal Probability Plot
+       130+                                           *++++
+          |                                         +++
+          |                                      +++
+          |                                  ++*+*
+          |                               +**
+          |                           **+*
+          |                        *+*+
+          |                    *+**
+          |                  *++
+          |              *++*
+          |           +*+
+          |        +++
+          |    ++++
+      80.4+ +++   *
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+
+                                Schematic Plots
+
+       130 +                  0
+           |
+           |
+           |      |        +--+--+
+    111.96 +   +-----+     +-----+        |
+           |   |     |                 +-----+
+           |   *--+--*        0        |     |
+           |   +-----+                 *--+--*
+     93.93 +      |                    +-----+
+           |      |                       |
+           |                              |
+      80.4 +                              |
+           ------+-----------+-----------+-----
+     Style    Duplex       Quad       Single
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+             COMPLETELY RANDOMIZED DEISGN (CRD) ANALYSIS - By City             1
+
+                         The GLM Procedure                         
+                    Dependent Variable: ebitda                     
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+City             5      7876.60000   1575.32000     19.26    <.0001
+Error           90      7362.13625     81.80151                    
+
+Root MSE           9.04442    R-Square            0.5169
+Adj R-Sq            0.4900
+
+                       Contrast Results                        
+
+Contrast                    DF  Contrast SS   F Value    Pr > F
+--------------------  --------  -----------  --------  --------
+Gibsonville vs. Eden         1      71.7003      0.88    0.3517
+Reidsville vs. Eden          1     301.3512      3.68    0.0581
+
+          Means for Effect: City          
+
+Level             Mean   Std Dev         N
+-----------  ---------  --------  --------
+Burlington    96.20625   8.21417        16
+Eden         110.46875   8.25661        16
+Gibsonville  116.88750   9.72666        16
+Graham       113.53750  10.21077        16
+Mebane        99.35000   8.34913        16
+Reidsville    93.21250   9.30533        16
+
+          Means for Effect: City          
+
+Level             Mean   Std Dev         N
+-----------  ---------  --------  --------
+Burlington    96.20625   8.21417        16
+Eden         110.46875   8.25661        16
+Gibsonville  116.88750   9.72666        16
+Graham       113.53750  10.21077        16
+Mebane        99.35000   8.34913        16
+Reidsville    93.21250   9.30533        16
+

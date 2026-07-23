@@ -1,0 +1,99 @@
+     COMPLETELY RANDOMIZED ANALYSIS OF COVARIANCE (CRAC) ANALYSIS - By City    1
+
+                         The GLM Procedure                         
+                   Dependent Variable: y EBITDA                    
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+A                5      7876.60000   1575.32000     19.26    <.0001
+Error           90      7362.13625     81.80151                    
+
+Root MSE           9.04442    R-Square            0.5169
+Adj R-Sq            0.4900
+
+     COMPLETELY RANDOMIZED ANALYSIS OF COVARIANCE (CRAC) ANALYSIS - By City    1
+
+                         The GLM Procedure                         
+                   Dependent Variable: y EBITDA                    
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+X                1     12687.29113  12687.29113    467.42    <.0001
+Error           94      2551.44512     27.14303                    
+
+Root MSE           5.20990    R-Square            0.8326
+Adj R-Sq            0.8308
+
+     COMPLETELY RANDOMIZED ANALYSIS OF COVARIANCE (CRAC) ANALYSIS - By City    1
+
+                         The GLM Procedure                         
+                   Dependent Variable: y EBITDA                    
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+A                5        62.60996     12.52199      0.54    0.7455
+X                1       807.67682    807.67682     34.82    <.0001
+A:X              5        68.18639     13.63728      0.59    0.7091
+Error           84      1948.30251     23.19408                    
+
+Root MSE           4.81602    R-Square            0.8721
+Adj R-Sq            0.8554
+
+     COMPLETELY RANDOMIZED ANALYSIS OF COVARIANCE (CRAC) ANALYSIS - By City    1
+
+                         The GLM Procedure                         
+                   Dependent Variable: y EBITDA                    
+
+Source          DF  Sum of Squares  Mean Square   F Value    Pr > F
+--------  --------  --------------  -----------  --------  --------
+A                5       534.95622    106.99124      4.72    0.0007
+X                1      5345.64735   5345.64735    235.94    <.0001
+Error           89      2016.48890     22.65718                    
+
+Root MSE           4.75996    R-Square            0.8677
+Adj R-Sq            0.8588
+
+          Means for Effect: City          
+
+Level             Mean   Std Dev         N
+-----------  ---------  --------  --------
+Burlington    96.20625   8.21417        16
+Eden         110.46875   8.25661        16
+Gibsonville  116.88750   9.72666        16
+Graham       113.53750  10.21077        16
+Mebane        99.35000   8.34913        16
+Reidsville    93.21250   9.30533        16
+
+    Least Squares Means for City     
+
+Level          LSMean  Standard Error
+-----------  --------  --------------
+Burlington   101.3640          1.2365
+Eden         104.5884          1.2501
+Gibsonville  107.9351          1.3251
+Graham       108.5852          1.2329
+Mebane       102.4596          1.2071
+Reidsville   104.7301          1.4065
+
+Differences of Least Squares Means for City (Adjustment for Multiple Comparisons: Tukey)
+
+Comparison                Estimate  Standard Error   t Value  Pr > |t|     Adj P
+------------------------  --------  --------------  --------  --------  --------
+Burlington - Eden          -3.2245          1.8299     -1.76    0.0815    0.4953
+Burlington - Gibsonville   -6.5711          1.9173     -3.43    0.0009    0.0116
+Burlington - Graham        -7.2213          1.8070     -4.00    0.0001    0.0018
+Burlington - Mebane        -1.0957          1.6882     -0.65    0.5180    0.9868
+Burlington - Reidsville    -3.3662          1.7331     -1.94    0.0553    0.3838
+Eden - Gibsonville         -3.3466          1.6947     -1.97    0.0514    0.3650
+Eden - Graham              -3.9968          1.6840     -2.37    0.0198    0.1769
+Eden - Mebane               2.1288          1.7818      1.19    0.2354    0.8383
+Eden - Reidsville          -0.1417          2.0286     -0.07    0.9445    1.0000
+Gibsonville - Graham       -0.6501          1.7029     -0.38    0.7035    0.9989
+Gibsonville - Mebane        5.4754          1.8571      2.95    0.0041    0.0455
+Gibsonville - Reidsville    3.2049          2.1467      1.49    0.1390    0.6696
+Graham - Mebane             6.1256          1.7628      3.47    0.0008    0.0100
+Graham - Reidsville         3.8551          1.9955      1.93    0.0566    0.3899
+Mebane - Reidsville        -2.2705          1.7697     -1.28    0.2028    0.7935
+
+
+

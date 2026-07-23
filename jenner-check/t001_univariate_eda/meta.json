@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_univariate_eda",
+  "source_file": "Experimental Design Analysis.sas",
+  "source_blob_sha": "a1d28c010171f4eaf25aa13b9d8a2ed5fbbc2e8e",
+  "source_commit": "27d0a1a5d9886cc26fabe3a220c1bf21dd7a4c6f",
+  "notes": "UNIVARIATE EDA slice (Proc Univariate Normal Plot by City and by Style, Var EBITDA) from the BIA 654 project. External PROC IMPORT (ProjectData.xlsx, not in repo) replaced with a compact inline DATA Prop sample (3 cities x 3 styles x 2 reps) matching the Company/City/Style/EBITDA/ResaleValue shape; UNIVARIATE statements verbatim."
+}

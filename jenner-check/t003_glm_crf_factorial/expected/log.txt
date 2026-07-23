@@ -1,0 +1,23 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option LINESIZE changed to 80.
+NOTE: Option PS changed to 50.
+NOTE: DATA Prop
+
+NOTE: Processing inline DATALINES (96 lines)
+
+NOTE: Read 96 rows from DATALINES.
+NOTE: Wrote Prop (96 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to COMPLETELY RANDOMIZED FACTORIAL DESIGN (CRF) ANALYSIS.
+NOTE: PROC GLM data=Prop
+
+NOTE: ODS plot written: glm_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: glm_residual_histogram_panel.spec.json
+NOTE: ODS plot written: glm_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: glm_qq_plot.spec.json
+NOTE: ODS plot written: glm_lsmeans_Style.spec.json
+NOTE: ODS plot written: glm_lsmeans_City*Style.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.
